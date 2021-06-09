@@ -1,0 +1,141 @@
+h1 {
+  color: green;
+  font-size: 50px;
+  background: white;
+  font-family: roboto;
+  text-align: center
+}
+
+h2 {color: black;
+background: white;
+text-align: center;}
+
+h5 {color: black;
+	font-size: 18px;
+background: white;
+text-align: center;}
+
+h4 {color: black;
+  font-size: 18px;
+background: white;
+text-align: center;}
+
+  body {
+  background: white;
+  font-family: georgia;
+}
+
+div {
+ background: white;
+}
+
+h1 {
+  color: black;
+  font-size: 23px;
+}
+
+h3{color: black;
+text-align: center;}
+
+h4, h3, .navbar {
+  font-size: 20px;
+  border: 2px black solid;}
+
+  h6 { color: black;
+  font-size: 15px;
+  text-align: center;}
+
+
+.video {align-content: center;}
+.logo{width: 120px}
+
+
+  .parfum1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parfum2 {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.orange {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+.line-transparent {
+  background: black;
+  width: 100%;
+    display: flex;
+     justify-content: space-between;
+    align-items: ;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: white;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: white;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: white;
+}
+
+.navbar {
+  display: flex;
+  background: white;
+}
+
+.links {
+  display: flex;
+  justify-content: middle;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.fleur {object-fit: cover}
+
+
+p{text-align: center; }
+
+.btn-pink {
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
