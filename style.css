@@ -21,7 +21,7 @@ background: white;
 text-align: center;
 border: 2px black solid;
 border-radius: 5px;
-box-shadow : 1px 1px 0px black;}
+box-shadow : 5px 5px 0px black;}
 
   body {
   background: white;
@@ -47,7 +47,7 @@ text-align: center;}
 
 
 .video {align-content: center;}
-.logo{width: 220px}
+.logo{width: 250px}
 
 
   .parfum1 {
@@ -194,3 +194,6 @@ justify-content : flex-end;  }
 
 .photo2{justify-content :space-around}
 
+.paysage{width:  100%}
+
+.gif{width:  100%}
