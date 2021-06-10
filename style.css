@@ -168,16 +168,28 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 div#bloc1{float: left;
 background: white;
-margin-left: 50px;}
+margin-left: 50px;
+display: inline-block;}
 
 div#bloc2{float: left;
 background: white;
 margin-top: auto;
 margin-right: auto;
-width:20px;
-padding : 3px;}
+width:10px;
+padding : 3px;
+justify-content: space-between;
+display: inline-block;}
 
 
 .texte{text-align: right
 font-family: 'Open Sans Condensed', sans-serif;
-font-size: 15px}
+font-size: 18px;
+}
+
+.aqua{text-align: right
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px
+margin-right: auto;
+justify-content : flex-end;  }
+
+.photo2{justify-content :space-around}
