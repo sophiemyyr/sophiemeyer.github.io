@@ -1,0 +1,195 @@
+h1 {
+  color: black;
+  font-size: 65px;
+  background: white;
+ font-family: 'Playfair Display', serif;
+  text-align: center
+}
+
+h2 {color: black;
+background: white;
+text-align: center;}
+
+h5 {color: black;
+font-size: 19px;
+background: white;
+text-align: center;}
+
+h4 {color: black;
+  font-size: 18px;
+background: white;
+text-align: center;
+border: 2px black solid;
+border-radius: 5px
+box-shadow : 6px black;}
+
+  body {
+  background: white;
+  font-family: helvetica;
+}
+
+div {
+ background: white;
+}
+
+.raison, .créer{
+  color: black;
+  font-size: 23px;
+}
+
+h3{color: black;
+text-align: center;}
+
+
+  h6 { color: black;
+  font-size: 15px;
+  text-align: center;}
+
+
+.video {align-content: center;}
+.logo{width: 220px}
+
+
+  .parfum1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parfum2 {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.orange {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+.line-transparent {
+  background: black;
+  width: 100%;
+    display: flex;
+     justify-content: space-between;
+    text-align: center;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: white;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: white;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: white;
+}
+
+.my-navbar {
+  display: flex;
+  background: white;
+}
+
+.links {
+  display: flex;
+  justify-content: middle;
+  font-family: 'Open Sans Condensed';
+    width: 1000px;
+    padding : 10px;
+  margin : auto;
+}
+
+.link {
+  margin: 10px 30px;
+  color: black;
+  font-family: 'Open Sans Condensed';
+    width: 1000px;
+    padding : 10px;
+  margin : auto;
+}
+
+.link:hover {
+  color: black;
+}
+
+.fleur {object-fit: cover}
+
+
+.btn-pink {
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 3px;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+p, h2, h3, h5, h4{
+  width: 1000px;
+  padding : 10px;
+  margin : auto;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.mentions {text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  margin-left: 45px
+}
+
+li {text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  margin-left: 30px 
+}
+
+div#bloc1{float: left;
+background: white;
+margin-left: 50px;
+display: inline-block;}
+
+div#bloc2{float: left;
+background: white;
+margin-top: auto;
+margin-right: auto;
+width:10px;
+padding : 3px;
+justify-content: space-between;
+display: inline-block;}
+
+
+.texte{text-align: right
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px;
+}
+
+.aqua{text-align: right
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 18px
+margin-right: auto;
+justify-content : flex-end;  }
+
+.photo2{justify-content :space-around}
