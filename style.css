@@ -1,8 +1,8 @@
 h1 {
-  color: green;
-  font-size: 50px;
+  color: black;
+  font-size: 65px;
   background: white;
-  font-family: roboto;
+ font-family: 'Playfair Display', serif;
   text-align: center
 }
 
@@ -11,25 +11,28 @@ background: white;
 text-align: center;}
 
 h5 {color: black;
-	font-size: 18px;
+font-size: 19px;
 background: white;
 text-align: center;}
 
 h4 {color: black;
   font-size: 18px;
 background: white;
-text-align: center;}
+text-align: center;
+border: 2px black solid;
+border-radius: 5px
+box-shadow : 6px black;}
 
   body {
   background: white;
-  font-family: georgia;
+  font-family: helvetica;
 }
 
 div {
  background: white;
 }
 
-h1 {
+.raison, .créer{
   color: black;
   font-size: 23px;
 }
@@ -37,9 +40,6 @@ h1 {
 h3{color: black;
 text-align: center;}
 
-h4, h3, .navbar {
-  font-size: 20px;
-  border: 2px black solid;}
 
   h6 { color: black;
   font-size: 15px;
@@ -47,7 +47,7 @@ h4, h3, .navbar {
 
 
 .video {align-content: center;}
-.logo{width: 120px}
+.logo{width: 220px}
 
 
   .parfum1 {
@@ -80,7 +80,7 @@ h4, h3, .navbar {
   width: 100%;
     display: flex;
      justify-content: space-between;
-    align-items: ;
+    text-align: center;
 }
 
 .line-light {
@@ -101,7 +101,7 @@ h4, h3, .navbar {
   background: white;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
   background: white;
 }
@@ -109,11 +109,19 @@ h4, h3, .navbar {
 .links {
   display: flex;
   justify-content: middle;
+  font-family: 'Open Sans Condensed';
+    width: 1000px;
+    padding : 10px;
+  margin : auto;
 }
 
 .link {
   margin: 10px 30px;
   color: black;
+  font-family: 'Open Sans Condensed';
+    width: 1000px;
+    padding : 10px;
+  margin : auto;
 }
 
 .link:hover {
@@ -123,8 +131,6 @@ h4, h3, .navbar {
 .fleur {object-fit: cover}
 
 
-p{text-align: center; }
-
 .btn-pink {
   display: inline-block;
   color: white;
@@ -133,9 +139,45 @@ p{text-align: center; }
   padding: 20px;
   border-radius: 5px;
   font-weight: bold;
+  box-shadow: 3px;
 }
 
 .btn-pink:hover {
   color: white;
   opacity: 0.8;
 }
+
+p, h2, h3, h5, h4{
+  width: 1000px;
+  padding : 10px;
+  margin : auto;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.mentions {text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  margin-left: 45px
+}
+
+li {text-align: left;
+font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  margin-left: 30px 
+}
+
+div#bloc1{float: left;
+background: white;
+margin-left: 50px;}
+
+div#bloc2{float: left;
+background: white;
+margin-top: auto;
+margin-right: auto;
+width:20px;
+padding : 3px;}
+
+
+.texte{text-align: right
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 15px}
