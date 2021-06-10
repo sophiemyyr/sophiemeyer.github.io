@@ -20,8 +20,8 @@ h4 {color: black;
 background: white;
 text-align: center;
 border: 2px black solid;
-border-radius: 5px
-box-shadow : 6px black;}
+border-radius: 5px;
+box-shadow : 1px 1px 0px black;}
 
   body {
   background: white;
@@ -193,3 +193,4 @@ margin-right: auto;
 justify-content : flex-end;  }
 
 .photo2{justify-content :space-around}
+
